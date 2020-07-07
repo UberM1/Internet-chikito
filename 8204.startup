@@ -1,4 +1,5 @@
 ifconfig eth0 208.1.64.2/18 up 
 ifconfig eth1 208.1.128.1/17 up
 
-/etc/init.d/zebra start
+route add -net 201.1.0.0/18 gw 201.1.128.2 eth1
+route add default gw 201.1.64.1 eth0
