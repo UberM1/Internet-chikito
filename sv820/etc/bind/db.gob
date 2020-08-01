@@ -1,0 +1,17 @@
+$TTL    60000
+@               IN      SOA     sv820.gob.    root.gob. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@		IN	NS	sv820.gob.
+sv820		IN	A	28.1.3.2
+
+dc		IN	NS	sv803.dc.gob.
+sv803.dc	IN	A	108.2.2.3
+
+usa		IN	NS	sv803.usa.gob.
+sv803.usa	IN	A	108.2.2.3

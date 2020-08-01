@@ -1,0 +1,11 @@
+$TTL    60000
+@               IN      SOA     sv813.mil.darpa.research.    root.mil.darpa.research. (
+                        2006031201 ; serial
+                        28 ; refresh
+                        14 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               IN      NS	sv813.research.darpa.mil.
+sv813           IN      A 	208.1.64.3
