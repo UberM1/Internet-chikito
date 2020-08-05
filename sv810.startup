@@ -1,1 +1,2 @@
 ifconfig eth0 108.1.4.3/22 up
+route add default gw 108.1.4.1 eth0
