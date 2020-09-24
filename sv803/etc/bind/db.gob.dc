@@ -7,6 +7,6 @@ $TTL    60000
                         0 ; negative cache ttl
                         )
 
-@               IN      NS	sv803.gob. 
+@               IN      NS	sv803.dc.gob.
 sv803           IN      A 	108.2.2.3
 ns1		        IN	    CNAME	sv803
