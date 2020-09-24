@@ -9,7 +9,7 @@ $TTL    60000
 
 @               IN      NS	sv803.darpa.mil.
 sv803		IN	A	108.2.2.3
-ns1		IN	CNAME	108.2.2.3
+ns1		IN	CNAME	sv803
 
 research	IN	NS	sv813.research.darpa.mil.
 sv813		IN	A	208.1.64.3
