@@ -3,5 +3,6 @@ route add default gw 108.2.2.1 eth0
 /etc/init.d/bind start
 /etc/init.d/nginx start
 
+chmod g+w /etc/bind
 mkdir -p /var/bind
 chown bind:bind /var/bind
