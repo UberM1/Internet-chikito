@@ -1,3 +1,4 @@
+#Configuración ip del servidor y gateway
 ifconfig eth0 208.1.64.3/18 up
 route add default gw 208.1.64.1 eth0
 /etc/init.d/bind start

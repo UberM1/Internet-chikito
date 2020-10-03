@@ -1,6 +1,7 @@
+#Configuración ip del router
 ifconfig eth1 18.0.0.9/30 up 
 ifconfig eth0 208.1.0.2/18 up
-
+#Configuración gateway
 route add -net 208.1.128.0/17 gw 208.1.0.1 eth0
 route add -net 208.1.64.0/18 gw 208.1.0.1 eth0
 

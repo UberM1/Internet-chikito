@@ -1,2 +1,3 @@
+#Configuración ip del servidor y gateway
 ifconfig eth0 48.0.2.3/24 up
 route add default gw 48.0.2.1 eth0

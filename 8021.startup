@@ -1,3 +1,4 @@
+#Configuración ip del router
 ifconfig eth0 28.1.2.2/24 up
 ifconfig eth1 18.0.0.2/30 up
 

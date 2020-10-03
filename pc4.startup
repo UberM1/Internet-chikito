@@ -1,2 +1,3 @@
+#Configuración ip de la pc y gateway
 ifconfig eth0 158.2.0.2 up
 route add default gw 158.2.0.1 eth0
